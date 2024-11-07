@@ -1,20 +1,17 @@
-# Arquiteturas de Sistemas Operacionais
+|   | INSTITUTO FEDERAL DO RN Campus Natal-Central |
+| :---- | ----- |
+|  | **Disciplina:** Sistemas Operacionais |
+|  | **Professor(a):** Leonardo Ataide Minora |
+|  | **Discente:** Lucas Pinheiro da Costa |
+|	| **Matrícula:** 20231014040023 |
+|  | **Curso:** TADS |
+|	| **Semestre:** 2024.2 |
+|  | **Resolução:** Lista de exercícios do Cap. 03 do livro “Sistemas Operacionais: Conceitos e Mecanismos” |
 
-## Informações gerais
 
-- Capítulo: [Arquitetura de SO](https://wiki.inf.ufpr.br/maziero/lib/exe/fetch.php?media=socm:socm-03.pdf)
-- Disciplina: *Sistemas Operacionais*
-- Livro: [Sistemas Operacionais: Conceitos e Mecanismos](https://wiki.inf.ufpr.br/maziero/doku.php?id=socm:start)
-
-## Aluno
-
-- Nome: Lucas Pinheiro da Costa
-- Matrícula: 20231014040023
-
-## Respostas dos exercícios
-
-CAPÍTULO 03 - ARQUITETURAS DE SISTEMAS OPERACIONAIS
 <br>
+CAPÍTULO 03 - ARQUITETURAS DE SISTEMAS OPERACIONAIS
+<br><br>
 
 1. Monte uma tabela com os benefícios e deficiências mais relevantes das principais arquiteturas de sistemas operacionais.
 
@@ -38,21 +35,19 @@ CAPÍTULO 03 - ARQUITETURAS DE SISTEMAS OPERACIONAIS
    Embora o Linux incorpore algumas funcionalidades que se assemelham a sistemas micronúcleo, como a modularidade, elas são implementadas como módulos de kernel, que podem ser carregados e descarregados dinamicamente no núcleo, mas ainda rodam em modo kernel, com acesso a privilégios completos. Dessa forma, mesmo com a possibilidade de modularidade e a presença de "tarefas de núcleo", o Linux não atinge o nível de isolamento e segurança característicos de sistemas de micronúcleo, nos quais componentes principais rodam em espaço de usuário e se comunicam por meio de chamadas de sistema. Por isso, o Linux é classificado como um sistema de núcleo monolítico.
 </pre>
 
-<br>
-3. Sobre as afirmações a seguir, relativas às diversas arquiteturas de sistemas operacionais, indique quais são incorretas, justificando sua resposta:
-
-<pre>1. <b>Uma máquina virtual de sistema é construída para suportar uma aplicação escrita em uma linguagem de programação específica, como Java.</b>
+3. Sobre as afirmações a seguir, relativas às diversas arquiteturas de sistemas operacionais, indique quais são incorretas, justificando sua resposta:  
+   1. **Uma máquina virtual de sistema é construída para suportar uma aplicação escrita em uma linguagem de programação específica, como Java.**
    
-    Justificativa: Uma máquina virtual de sistema simula todo o ambiente de um sistema operacional, permitindo que vários sistemas operacionais completos sejam executados como convidados. Ela não é restrita a uma linguagem de programação específica. A descrição dada corresponde a uma máquina virtual de processo, que é construída para suportar uma aplicação em uma linguagem específica (por exemplo, a JVM para Java).</pre>
+<pre>Justificativa: Uma máquina virtual de sistema simula todo o ambiente de um sistema operacional, permitindo que vários sistemas operacionais completos sejam executados como convidados. Ela não é restrita a uma linguagem de programação específica. A descrição dada corresponde a uma máquina virtual de processo, que é construída para suportar uma aplicação em uma linguagem específica (por exemplo, a JVM para Java).</pre>
 
-    2. Um hipervisor convidado executa sobre um sistema operacional hospedeiro.
+   2. Um hipervisor convidado executa sobre um sistema operacional hospedeiro.
 
-<pre>3. <b>Em um sistema operacional micronúcleo, os diversos componentes do sistema são construídos como módulos interconectados executando dentro do núcleo.</b>
+   3. **Em um sistema operacional micronúcleo, os diversos componentes do sistema são construídos como módulos interconectados executando dentro do núcleo.**
 
-    Justificativa: Em sistemas operacionais com arquitetura micronúcleo, os principais componentes (como drivers, sistema de arquivos, etc.) são isolados e executados no espaço do usuário, não dentro do núcleo. O núcleo, ou micronúcleo, é minimalista e executa apenas as funções mais essenciais, como a comunicação entre processos e o gerenciamento básico de memória.</pre>
+<pre>Justificativa: Em sistemas operacionais com arquitetura micronúcleo, os principais componentes (como drivers, sistema de arquivos, etc.) são isolados e executados no espaço do usuário, não dentro do núcleo. O núcleo, ou micronúcleo, é minimalista e executa apenas as funções mais essenciais, como a comunicação entre processos e o gerenciamento básico de memória.</pre>
 
-<pre>4. <b>Núcleos monolíticos são muito utilizados devido à sua robustez e facilidade de manutenção.</b>
+   4. **Núcleos monolíticos são muito utilizados devido à sua robustez e facilidade de manutenção.**
 
-    Justificativa: Núcleos monolíticos são utilizados principalmente devido ao desempenho, pois toda a comunicação e interação entre componentes é direta e ocorre no modo kernel. No entanto, eles são considerados mais difíceis de manter e menos robustos, já que um erro em um componente pode comprometer a estabilidade de todo o sistema.</pre>
+<pre>Justificativa: Núcleos monolíticos são utilizados principalmente devido ao desempenho, pois toda a comunicação e interação entre componentes é direta e ocorre no modo kernel. No entanto, eles são considerados mais difíceis de manter e menos robustos, já que um erro em um componente pode comprometer a estabilidade de todo o sistema.</pre>
 
-    5. Em um sistema operacional micronúcleo, as chamadas de sistema são implementadas através de trocas de mensagens.
+   5. Em um sistema operacional micronúcleo, as chamadas de sistema são implementadas através de trocas de mensagens.
