@@ -48,7 +48,7 @@ print("Olá, Docker!")
 Crie um arquivo `Dockerfile` no mesmo diretório com o seguinte conteúdo:
 ```Dockerfile
 # Usar uma imagem base do Python
-FROM python:3.9-slim
+FROM python:3-slim
 
 # Definir o diretório de trabalho no contêiner
 WORKDIR /app
