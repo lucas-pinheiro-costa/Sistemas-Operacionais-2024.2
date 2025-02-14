@@ -85,7 +85,13 @@ A estrutura física do datacenter conta com um piso elevado, onde passam diverso
 
 **O datacenter foi implantado no formato de container**, solução considerada a mais adequada para as necessidades do IFRN, proporcionando maior flexibilidade e eficiência na operação. O sistema de **ar-condicionado de precisão** foi escolhido para evitar riscos de alagamento e preservar os equipamentos contra variações de temperatura.
 
+<img src="imagens/câmara_selada_ar_quente.jpg" alt="Câmara selada de ar quente" width="600" height="900">
+
 Dentro da estrutura, há um **rack legado**, onde ficam equipamentos mais antigos que podem ser substituídos ou descartados futuramente. Já os **closers** são áreas que abrigam as máquinas responsáveis pela operação do datacenter. A presença de múltiplos closers garante o funcionamento contínuo, mesmo em situações críticas, como falhas técnicas ou mecânicas.
+
+<img src="imagens/racks.jpg" alt="Racks" width="600" height="900">
+
+<img src="imagens/rack_1.jpg" alt="Conexões" width="600" height="900">
 
 A visita ao datacenter destacou a importância da infraestrutura moderna e segura para garantir a operação ininterrupta dos serviços do IFRN, demonstrando como a tecnologia e boas práticas são aplicadas para manter a eficiência e a confiabilidade da instituição.
 
